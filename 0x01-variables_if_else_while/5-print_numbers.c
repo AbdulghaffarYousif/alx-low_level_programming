@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * ain - print single digit numbers
+ * main - print single digit numbers
  *
  * Description: print single digit numbers
  *
