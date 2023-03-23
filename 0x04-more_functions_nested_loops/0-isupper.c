@@ -1,9 +1,10 @@
 include "main.h"
 
 /**
- * main - check the code 
+ * _isupper - checks for uppercase
+ * @c: character to checked for case
  *
- * Return: Always 0
+ * Return: 1 if uppercase, 0 if not uppercase
  */
 
 int _isupper(int c)
