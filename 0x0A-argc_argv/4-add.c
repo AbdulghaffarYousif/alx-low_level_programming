@@ -27,7 +27,7 @@ int is_number(char *s)
 }
 
 /**
- * main - prints the sum of positive numbers
+ * main - prints the sumtion of positive numbers
  * @argc: number of arguments
  * @argv: array of pointers to arguments
  * Return: (0)
@@ -56,8 +56,10 @@ int main(int argc, char *argv[])
 			{
 				printf("Error\n");
 				return (1);
-			}i++;
-		}printf("%d\n", sum);
+			}
+			i++;
+		}
+		printf("%d\n", sum);
 	}
 	return (0);
 }
