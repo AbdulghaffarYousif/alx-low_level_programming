@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * creat arry - arry of chars
+ * create_array - arry of chars
  * initiilizes with specific char
  * @c: char
  * @size: the size of the memory to print
