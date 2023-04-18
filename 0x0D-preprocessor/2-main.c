@@ -1,11 +1,13 @@
-#include <stdlip.h>
 #include <stdio.h>
 
+/**
+ * main - prints the name of the file it was compiled from
+ *
+ * Return : always 0
+ */
 
-#define NAME "2-main.c"
-
-int main ()
+int main (void)
 {
-	printf("%s", NAME);
+	printf("%s\n", __FILE__);
 	return 0;
 }
