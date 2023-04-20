@@ -4,10 +4,10 @@
  * array_iterator - a function given a parameter on each element of array
  * @array: integer array
  * @size: the size of the array
- * @action: a pointer to the function
+ * @action: function pointer
  * Return: void
  */
-
+i
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	size_t i;
