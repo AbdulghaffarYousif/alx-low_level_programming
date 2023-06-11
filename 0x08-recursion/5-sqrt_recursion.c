@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion: returns the natural square root of a number
- * sqtr: returns integer as candidate for square root
- * @n: intger
- * @x: intger
- * Return: intger
+ * check_int - checks integer as candidate for square root
+ * @sqtr: square integer
+ * @x: integer
+ * Return: 1 if
  */
-
 int sqtr(int n, int x);
 int _sqrt_recursion(int n)
 {
@@ -15,11 +13,9 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt_recursion: returns the natural square root of a number
- * sqtr: returns integer as candidate for square root
- * @n: intger
- * @x: intger
- * Return: intger
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: integer
+ * Return: integer - square root, if none returns -1
  */
 
 int sqtr(int n, int x)
