@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 
@@ -11,15 +11,16 @@
 
 int main(int argc, char *argv[])
 {
-	int count, i, sum = 0;
+	int sum = 0;
+	int count = 1;
+	int i;
 
 	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
 	}
-
-	for (count = 1; count < argc; count++)
+	while (count < argc)
 	{
 		for (i = 0; argv[count][i] != '\0'; i++)
 		{
@@ -30,6 +31,7 @@ int main(int argc, char *argv[])
 			}
 		}
 		sum += atoi(argv[count]);
+		count++;
 	}
 	printf("%d\n", sum);
 	return (0);
