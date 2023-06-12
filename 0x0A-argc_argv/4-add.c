@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - Main Entry
@@ -21,7 +23,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; argv[count][i] != '\0'; i++)
 		{
-			if (argv[count][i] > 57 || argv[count][i] < 48)
+			if (!(isdigit(argv[count][i])))
 			{
 				printf("Error\n");
 				return (1);
