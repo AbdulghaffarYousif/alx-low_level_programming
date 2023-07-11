@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdarg>
-
+#include <unistd.h>
 /**
  * error_handler - handles errors for cp
  * @exit_code: exit code
